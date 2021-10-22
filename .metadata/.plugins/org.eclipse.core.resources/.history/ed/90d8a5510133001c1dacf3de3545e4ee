@@ -1,0 +1,10 @@
+package com.exam.dto;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.annotation.Id;
+
+@Document(collection = "usuarios")
+public class Usuario {
+	@Id
+	private String Id;
+}
